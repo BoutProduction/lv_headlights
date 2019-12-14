@@ -57,62 +57,62 @@ function ColourList()
             if data.current.value == '1' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 1)
+            SetVehicleXenonLightsColour(veh, 1)
             end
             if data.current.value == '2' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 2)
+            SetVehicleXenonLightsColour(veh, 2)
             end
             if data.current.value == '3' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 3)
+            SetVehicleXenonLightsColour(veh, 3)
             end
             if data.current.value == '4' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 4)
+            SetVehicleXenonLightsColour(veh, 4)
             end
             if data.current.value == '5' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 5)
+            SetVehicleXenonLightsColour(veh, 5)
             end
             if data.current.value == '6' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 6)
+            SetVehicleXenonLightsColour(veh, 6)
             end
             if data.current.value == '7' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 7)
+            SetVehicleXenonLightsColour(veh, 7)
             end
             if data.current.value == '8' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 8)
+            SetVehicleXenonLightsColour(veh, 8)
             end
             if data.current.value == '9' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 9)
+            SetVehicleXenonLightsColour(veh, 9)
             end
             if data.current.value == '10' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 10)
+            SSetVehicleXenonLightsColour(veh, 10)
             end
             if data.current.value == '11' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 11)
+            SSetVehicleXenonLightsColour(veh, 11)
             end
             if data.current.value == '12' then
             local veh = GetVehiclePedIsUsing(PlayerPedId())
             ToggleVehicleMod(veh, 22, true) -- Xenon
-            SetVehicleHeadlightsColour(veh, 12)
+            SetVehicleXenonLightsColour(veh, 12)
             end
     end,
     function(data, menu)
